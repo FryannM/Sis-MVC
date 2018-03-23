@@ -9,3 +9,14 @@ C:\Users\fryan\source\repos\ASP.NET\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sist
 C:\Users\fryan\source\repos\ASP.NET\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.dll
 C:\Users\fryan\source\repos\ASP.NET\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.pdb
 C:\Users\fryan\source\repos\ASP.NET\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.csprojResolveAssemblyReference.cache
+E:\Programacion\Sistema\Sistema\bin\Debug\netcoreapp2.0\Sistema.deps.json
+E:\Programacion\Sistema\Sistema\bin\Debug\netcoreapp2.0\Sistema.runtimeconfig.json
+E:\Programacion\Sistema\Sistema\bin\Debug\netcoreapp2.0\Sistema.runtimeconfig.dev.json
+E:\Programacion\Sistema\Sistema\bin\Debug\netcoreapp2.0\Sistema.dll
+E:\Programacion\Sistema\Sistema\bin\Debug\netcoreapp2.0\Sistema.pdb
+E:\Programacion\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.csprojResolveAssemblyReference.cache
+E:\Programacion\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.csproj.CoreCompileInputs.cache
+E:\Programacion\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.AssemblyInfoInputs.cache
+E:\Programacion\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.AssemblyInfo.cs
+E:\Programacion\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.dll
+E:\Programacion\Sistema\Sistema\obj\Debug\netcoreapp2.0\Sistema.pdb
