@@ -7,7 +7,7 @@
 <h2>Categoria Cursos</h2>
 
 <p>
-    <a asp-action="Create"><button class="btn-primary  btn-success">Nuevo</button></a>
+    <a asp-action="Create"><button class="btn-primary btn-info">Nuevo</button></a>
 </p>
 <table class="table">
     <thead>
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CategoriaID"> <button class="btn-info " ></button>>Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.CategoriaID"><button class=" btn-info "></button>>Detalle</a> |
-                <a asp-action="Delete" asp-route-id="@item.CategoriaID"><button class=" btn-danger "></button>>Eliminar</a>
+                <a asp-action="Edit" asp-route-id="@item.CategoriaID"> Editar</a> 
+                <a asp-action="Details" asp-route-id="@item.CategoriaID">Detalles</a>
+                <a asp-action="Delete" asp-route-id="@item.CategoriaID">Eliminar</a>
             </td>
         </tr>
 }
