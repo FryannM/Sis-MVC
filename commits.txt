@@ -1,0 +1,23 @@
+commit 3ae462710d0a473124d57dc6c9f948e2f68aea23
+Author: Fryann <fryann14@hotmail.com>
+Date:   Thu Mar 22 22:56:58 2018 -0400
+
+    Vista Editar & Eliminar Listas
+
+commit 1a9adfae4d45ff740b520c53167a5a9561dddd22
+Author: Fryann <fryann14@hotmail.com>
+Date:   Thu Mar 22 22:51:30 2018 -0400
+
+    Remodelando Vistas Agregando bootstrap
+
+commit a5decf954f73f9cacc74779c865c6350375fe1c4
+Author: Fryann <fryann14@hotmail.com>
+Date:   Thu Mar 22 22:32:04 2018 -0400
+
+    Agregando Botones Categorias Menu
+
+commit a9f155c780318180d6e4876f7afa61a4aca64cbf
+Author: Fryann <fryann14@hotmail.com>
+Date:   Thu Mar 22 21:54:32 2018 -0400
+
+    DBINITIALIZE Getting Ready
