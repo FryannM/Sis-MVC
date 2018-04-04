@@ -44,7 +44,8 @@ namespace Sistema.Controllers
                     break;
             }
 
-            return View(await _context.Categoria.ToListAsync());
+            return View(await categoria.AsNoTracking().ToListAsync());
+            //return View(await _context.Categoria.ToListAsync());
         }
 
         // GET: Categorias/Details/5
