@@ -1,5 +1,5 @@
-﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+﻿
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="~/images/bg.png" />
 
 @model IEnumerable<Sistema.Models.Categoria>
@@ -10,24 +10,30 @@
 
 <h2>Categoria Cursos</h2>
 
-<p>
-    
-    <a asp-action="Create"><input type="submit" class="btn btn-primary" name="Nuevo" value="Nuevo"></a>
-</p>
+
 <form  asp-action="Index" method="get">
 
     <div class="form-actions no-color">
         
         <p>
 
-            Filtro:<input  type="text" name ="searchString" value="@ViewData["CurrentFilter"]"/>
-                   <input type="submit"  class="btn btn-success" value="Buscar" />
+            Filtro:<input type="text" name="searchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" class="btn btn-success" value="Buscar" onclick="Buscar" />
+
+
+
+            <a asp-action="Index"><input type="submit" name="name" value="Todos los Registros" class=" btn btn-warning" /> </a>
+
         </p>
     </div>
 
 
 </form>
-<table class="table">
+ <div class="NuevoBoton">
+            <a asp-action="Create"><input type="submit"  style ="position:relative; top :-44px; left:440px;" name="name" value="Nuevo" class=" btn btn-primary" /> </a>
+
+ </div >
+<table class=" table table-hover">
     <thead>
         <tr>
                 <th>
