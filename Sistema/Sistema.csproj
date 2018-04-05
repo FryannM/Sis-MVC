@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="estilos\" />
+    <None Include="wwwroot\images\bg.png" />
   </ItemGroup>
 
 </Project>

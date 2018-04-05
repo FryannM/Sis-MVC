@@ -1,6 +1,8 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
 }
 
 /* Wrapping element */
@@ -8,6 +10,8 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    
+  
 }
 
 /* Carousel */
@@ -32,4 +36,8 @@
     .carousel-caption {
         display: none;
     }
+}
+#Eliminar {
+
+    margin-bottom:5px;
 }

@@ -30,10 +30,15 @@
             @Html.DisplayFor(model => model.Estado)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
         <input type="hidden" asp-for="CategoriaID" />
-        <input type="submit" value="Eliminar" class="btn-danger btn-danger"   /> |
-        <a asp-action="Index">Volver a la Lista</a>
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
     </form>
+
 </div>
+
+
+
+    <a asp-action="Index"><input type="submit" class="Eliminar btn btn-warning " value="Volver  a la Lista" /> </a>
+
