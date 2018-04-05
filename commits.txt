@@ -1,3 +1,21 @@
+commit eb10d4e9465f9f09529f61d808b9ca9b47a0b076
+Author: Fryann <fryann14@hotmail.com>
+Date:   Wed Apr 4 16:37:36 2018 -0400
+
+    Orden Asc y Desc nombre y Categoria
+
+commit c662166e74b5627c1f163987da8659bc16ef2e31
+Author: Fryann <fryann14@hotmail.com>
+Date:   Wed Apr 4 15:52:31 2018 -0400
+
+    Agregando  de orden por nombre y Descripcion  en el controlador
+
+commit 1021806cdc6755577a6d045c9b38915f0f205519
+Author: Fryann <fryann14@hotmail.com>
+Date:   Sat Mar 24 12:26:46 2018 -0400
+
+    Versionando el proyecto
+
 commit 3ae462710d0a473124d57dc6c9f948e2f68aea23
 Author: Fryann <fryann14@hotmail.com>
 Date:   Thu Mar 22 22:56:58 2018 -0400
