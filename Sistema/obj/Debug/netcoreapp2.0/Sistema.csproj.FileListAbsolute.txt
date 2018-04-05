@@ -31,3 +31,14 @@ E:\Proyectos\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.AssemblyInfoInp
 E:\Proyectos\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.AssemblyInfo.cs
 E:\Proyectos\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.dll
 E:\Proyectos\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.pdb
+E:\Programacion\MVC\Sis-MVC\Sistema\bin\Debug\netcoreapp2.0\Sistema.deps.json
+E:\Programacion\MVC\Sis-MVC\Sistema\bin\Debug\netcoreapp2.0\Sistema.runtimeconfig.json
+E:\Programacion\MVC\Sis-MVC\Sistema\bin\Debug\netcoreapp2.0\Sistema.runtimeconfig.dev.json
+E:\Programacion\MVC\Sis-MVC\Sistema\bin\Debug\netcoreapp2.0\Sistema.dll
+E:\Programacion\MVC\Sis-MVC\Sistema\bin\Debug\netcoreapp2.0\Sistema.pdb
+E:\Programacion\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.csprojResolveAssemblyReference.cache
+E:\Programacion\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.csproj.CoreCompileInputs.cache
+E:\Programacion\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.AssemblyInfoInputs.cache
+E:\Programacion\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.AssemblyInfo.cs
+E:\Programacion\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.dll
+E:\Programacion\MVC\Sis-MVC\Sistema\obj\Debug\netcoreapp2.0\Sistema.pdb
