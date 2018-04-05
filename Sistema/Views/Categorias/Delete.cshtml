@@ -34,11 +34,17 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="CategoriaID" />
         <input type="submit" value="Eliminar" class="btn btn-danger" />
-    </form>
+        </form>
 
+        <form asp-action="Index">
+
+            <a asp-action="Index"><input type="submit" class="btn btn-warning " style="margin-top :4px;" value="Volver  a la Lista" onclick="Index" /></a>
+        </form>
+
+      
 </div>
 
 
 
-    <a asp-action="Index"><input type="submit" class="Eliminar btn btn-warning " value="Volver  a la Lista" /> </a>
+   
 
