@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="~/images/bg.png" />
 
-@model IEnumerable<Sistema.Models.Categoria>
+@model Paginacion<Sistema.Models.Categoria>
 
 @{
     ViewData["Title"] = "Index";
@@ -22,7 +22,10 @@
 
 
 
-            <a asp-action="Index"><input type="submit" name="name" value="Todos los Registros" class=" btn btn-warning" /> </a>
+            <a asp-action="Index"><input type="submit" name="name" value="Todos los Registros" class=" btn btn-warning" /> </a> 
+           
+
+
 
         </p>
     </div>
@@ -37,13 +40,13 @@
     <thead>
         <tr>
                 <th>
-                    <a asp-action="Index" asp-route-sortOrder="@ViewData["NombreSorparm"]">  @Html.DisplayNameFor(model => model.Nombre)</a>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["NombreSorparm"]">Nombre</a>
                 </th>
                 <th>
-                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DescripcionSortParm"]">   @Html.DisplayNameFor(model => model.Descripcion)</a>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DescripcionSortParm"]"> Descripcion</a>
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Estado)
+                  Estado
                 </th>
             <th></th>
         </tr>
@@ -69,3 +72,35 @@
 }
     </tbody>
 </table>
+
+@{ 
+    var prevDisable = !Model.HasPreviousPage ? "disable" : "";
+    var nextDisable = !Model.HasNextPage ? "disable" : "";
+
+}
+<a asp-action="Index"
+   
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-page="@(Model.PageIndex -1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @prevDisable"> Anterior
+   
+   </a>
+
+@for (int i = 1; i <=Model.TotalPages; i++)
+{
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-page="@i"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default">@i
+    </a>
+}
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-page="@(Model.PageIndex  + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @nextDisable">
+        Siguiente
+    </a>
+        Resultados @Model.TotalR
